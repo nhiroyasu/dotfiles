@@ -10,6 +10,7 @@
 # やりたいこと
 - [ ] zshのインストール
 - [ ] powerlineを使えるようにする
+- [ ] git
 - [ ] node
 - [ ] python
 - [ ] kotlin
