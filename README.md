@@ -9,9 +9,14 @@
 
 # やりたいこと
 - [ ] zshのインストール
-- [ ] powerlineを使えるようにする
-- [ ] git
-- [ ] node
-- [ ] python
-- [ ] kotlin
-- [ ] gradle
+- [ ] powerlevelを使えるようにする
+- [ ] vimの設定
+
+# セットアップ
+```shell
+cd ~
+git clone https://github.com/cyan-0fbcf9/dotfiles.git
+cd dotfiles
+chmod +x ./.bin/install.sh
+./.bin/install.sh
+```
