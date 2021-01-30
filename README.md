@@ -8,9 +8,9 @@
 [こちらのサイト](https://qiita.com/yutakatay/items/c6c7584d9795799ee164)を参考に作成する
 
 # やりたいこと
-- [ ] zshのインストール
-- [ ] powerlevelを使えるようにする
-- [ ] vimの設定
+- [ ] zshの設定
+- [*] powerlevelを使えるようにする
+- [*] vimの設定
 
 # セットアップ
 ```shell
@@ -20,3 +20,6 @@ cd dotfiles
 chmod +x ./.bin/install.sh
 ./.bin/install.sh
 ```
+
+# Preview
+<img src="./assets/preview.png">
