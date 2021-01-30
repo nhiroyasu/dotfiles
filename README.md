@@ -20,6 +20,3 @@ cd dotfiles
 chmod +x ./.bin/install.sh
 ./.bin/install.sh
 ```
-
-# Preview
-<img src="./assets/preview.png">
