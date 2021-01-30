@@ -9,8 +9,8 @@
 
 # やりたいこと
 - [ ] zshの設定
-- [*] powerlevelを使えるようにする
-- [*] vimの設定
+- [x] powerlevelを使えるようにする
+- [x] vimの設定
 
 # セットアップ
 ```shell
