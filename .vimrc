@@ -13,7 +13,7 @@ set wildmenu
 
 "----------------------------------------
 " 検索
-"----------------------------------------
+
 " 検索するときに大文字小文字を区別しない
 set ignorecase
 " 小文字で検索すると大文字と小文字を無視して検索
@@ -92,6 +92,12 @@ set nrformats=
 set whichwrap=b,s,h,l,<,>,[,],~
 " バッファスクロール
 set mouse=a
+" jj二回押しでインサートモードから切り替え
+inoremap <silent> jj <ESC>
+
+:set encoding=utf-8
+:set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
+:set fileformats=unix,dos,mac
 
 " auto reload .vimrc
 augroup source-vimrc
