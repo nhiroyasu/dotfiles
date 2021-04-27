@@ -94,7 +94,7 @@ set whichwrap=b,s,h,l,<,>,[,],~
 set mouse=a
 " jj二回押しでインサートモードから切り替え
 inoremap <silent> jj <ESC>
-
+" 日本語対応
 :set encoding=utf-8
 :set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
 :set fileformats=unix,dos,mac
