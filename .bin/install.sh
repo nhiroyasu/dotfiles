@@ -38,10 +38,14 @@ change_shell_to_zsh() {
 }
 
 install_powerleve10k() {
-  command echo "install powerleve10k"
-  command git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
-  command echo "source ~/powerlevel10k/powerlevel10k.zsh-theme" >> ~/.zshrc
-  command zsh
+  if [ -d ./powerlevel10k ]; then
+    command echo "powerlevel10k is alread exist"
+  else
+    command echo "install powerlevel10k"
+    command git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+    command echo "source ~/powerlevel10k/powerlevel10k.zsh-theme" >> ~/.zshrc
+    command zsh
+  fi
 }
 
 link_to_homedir
