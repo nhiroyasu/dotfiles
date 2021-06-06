@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -ue
 
+# dotfileをシンボリックリンクでホームディレクトリに配置
 link_to_homedir() {
   command echo "backup old dotfiles..."
   if [ ! -d "$HOME/.dotbackup" ];then
@@ -26,30 +27,36 @@ link_to_homedir() {
   fi
 }
 
+# gitconfigファイルを構築
 config_git() {
   command echo "git configuration..."
   command git config --global include.path "~/.gitconfig_shared"
 }
 
+# デフォルトのシェルをzshに変更
 change_shell_to_zsh() {
   command echo "change shell to zsh..."
   command chsh -s $(which zsh)
   command zsh
 }
 
-install_powerleve10k() {
+# powerlevel10kをインストール
+install_powerlevel10k() {
   if [ -d ./powerlevel10k ]; then
     command echo "powerlevel10k is alread exist"
   else
     command echo "install powerlevel10k"
     command git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
     command echo "source ~/powerlevel10k/powerlevel10k.zsh-theme" >> ~/.zshrc
-    command zsh
   fi
 }
 
 link_to_homedir
 config_git
-install_powerleve10k
+change_shell_to_zsh
+install_powerlevel10k
+
+# zshを再起動
+command zsh
 
 command echo "Install completed !!!"

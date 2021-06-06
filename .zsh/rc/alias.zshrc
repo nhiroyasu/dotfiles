@@ -1,12 +1,13 @@
-
 # configure alias
 ## git
 alias gs='git status -s'
-alias gaa 'git add'
-alias gp 'git push origin HEAD'
+alias ga='git add'
+alias gp='git push origin HEAD'
 alias gck='git checkout'
-alias gck-b='git checkout -b'
-alias gcm-m='git commit -m'
+alias gckb='git checkout -b'
+alias gcmm='git commit -m'
+alias gf='git fetch origin'
+alias gm='git merge'
 
 ## docker
 alias d='docker'
