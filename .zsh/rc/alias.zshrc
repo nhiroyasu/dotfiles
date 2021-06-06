@@ -10,6 +10,8 @@ alias gf='git fetch origin'
 alias gm='git merge'
 alias gl='git graph'
 alias glog='git graph'
+alias gb='git branch'
+alias gba='git branch -a'
 
 ## docker
 alias d='docker'
