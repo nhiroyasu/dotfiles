@@ -12,7 +12,7 @@
 - [x] powerlevelを使えるようにする
 - [x] vimの設定
 - [ ] git aliasの設定
-- [ ] git promptの設定
+- [ ] git completionの設定
 - [ ] powerlevelのconfig設定
 - [ ] ファイル単位で設定を反映できるようにする
 
