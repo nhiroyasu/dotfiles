@@ -42,7 +42,7 @@ change_shell_to_zsh() {
 
 # powerlevel10kをインストール
 install_powerlevel10k() {
-  if [ -d ./powerlevel10k ]; then
+  if [ -d $HOME/powerlevel10k ]; then
     command echo "powerlevel10k is alread exist"
   else
     command echo "install powerlevel10k"
