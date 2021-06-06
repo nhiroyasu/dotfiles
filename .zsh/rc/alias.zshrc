@@ -8,6 +8,8 @@ alias gckb='git checkout -b'
 alias gcmm='git commit -m'
 alias gf='git fetch origin'
 alias gm='git merge'
+alias gl='git graph'
+alias glog='git graph'
 
 ## docker
 alias d='docker'
