@@ -37,12 +37,12 @@ config_git() {
 change_shell_to_zsh() {
   command echo "change shell to zsh..."
   command chsh -s $(which zsh)
-  command zsh
 }
 
 # powerlevel10kをインストール
 install_powerlevel10k() {
-  if [ -d $HOME/powerlevel10k ]; then
+  command echo "setup powerlevel10k"
+  if [[ -d "$HOME/powerlevel10k" ]];then
     command echo "powerlevel10k is alread exist"
   else
     command echo "install powerlevel10k"
