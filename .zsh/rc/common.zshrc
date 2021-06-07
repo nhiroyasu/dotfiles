@@ -1,5 +1,15 @@
 # よく分からんが便利そうなオプション## 補完機能有効にする
 
+# ロケール
+export LANG=ja_JP.UTF-8
+
+# ビープ音をなくす
+setopt no_beep
+
+# 日本語ファイル名を表示可能にする
+setopt print_eight_bit
+
+# 補完を有効化
 autoload -U compinit
 compinit -u
 
