@@ -13,7 +13,7 @@
 - [x] vimの設定
 - [x] git aliasの設定
 - [x] git completionの設定
-- [] powerlevelのconfig設定
+- [ ] powerlevelのconfig設定
 - [ ] ファイル単位で設定を反映できるようにする
 - [ ] gitで同期できない形で、インストールできるようにする
 
@@ -22,6 +22,8 @@
 cd ~
 git clone https://github.com/cyan-0fbcf9/dotfiles.git
 cd dotfiles
-chmod +x ./.bin/install.sh
-./.bin/install.sh
+chmod +x ./.bin/install-*.sh
+./.bin/install-all.sh
 ```
+
+*WARNING: `sh` で起動しない*
