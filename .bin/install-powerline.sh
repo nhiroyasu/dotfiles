@@ -21,3 +21,4 @@ install_powerlevel10k
 echo "[SUCCESS] Install completed !!!"
 echo "--- You should execute this command ↓ ---"
 echo "[ zsh ]"
+echo "[ p10k config ]"
