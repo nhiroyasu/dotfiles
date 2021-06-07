@@ -11,10 +11,11 @@
 - [ ] zshの設定
 - [x] powerlevelを使えるようにする
 - [x] vimの設定
-- [ ] git aliasの設定
-- [ ] git completionの設定
-- [ ] powerlevelのconfig設定
+- [x] git aliasの設定
+- [x] git completionの設定
+- [] powerlevelのconfig設定
 - [ ] ファイル単位で設定を反映できるようにする
+- [ ] gitで同期できない形で、インストールできるようにする
 
 # セットアップ
 ```shell
